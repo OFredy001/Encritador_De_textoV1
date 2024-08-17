@@ -1,169 +1,168 @@
 * {
-    background: linear-gradient(135deg, #0A3871, #f5fcf3); /* Degradado de azul oscuro a blanco suave */
-    font-family: "Inter", sans-serif; /* Fuente de la página */
-    font-weight: 400; /* Peso de la fuente */
-    font-size: 32px; /* Tamaño de la fuente */
-    line-height: 150%; /* Altura de línea */
-    font-style: normal; /* Estilo de la fuente */
-    margin: 0; /* Eliminar márgenes predeterminados */
-    padding: 0; /* Eliminar relleno predeterminado */
-    box-sizing: border-box; /* Incluir relleno y borde en el tamaño total del elemento */
+    background: linear-gradient(135deg, #0A3871, #f5fcf3); 
+    font-family: "Inter", sans-serif; 
+    font-weight: 400; 
+    font-size: 32px;
+    line-height: 150%;
+    font-style: normal; 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
 }
 
 main {
-    display: flex; /* Utilizar flexbox para el diseño */
-    justify-content: space-between; /* Espacio entre las secciones */
-    padding: 20px; /* Espacio interno alrededor del main */
-    gap: 20px; /* Espacio entre los elementos hijos */
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px; 
+    gap: 20px; 
 }
 
 section {
-    display: flex; /* Utilizar flexbox para el diseño interno */
-    flex-direction: column; /* Alinear elementos en una columna */
-    align-items: center; /* Centrar elementos horizontalmente */
-    background: linear-gradient(135deg, #ffffff, #e6f2ff); /* Degradado de blanco a azul claro */
-    border-radius: 24px; /* Bordes redondeados */
-    padding: 20px; /* Espacio interno dentro de la sección */
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08); /* Sombra para dar profundidad */
-    width: 45%; /* Ancho de la sección (ajustable) */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    background: linear-gradient(135deg, #ffffff, #e6f2ff); 
+    border-radius: 24px; 
+    padding: 20px; 
+    box-shadow: 0px24px32px -8pxrgba(0, 0, 0, 0.08); 
+    width: 45%; 
 }
 
 .text_area,
 .mensaje {
-    border: none; /* Sin borde */
-    color: #0A3871; /* Color del texto azul oscuro */
-    background: linear-gradient(135deg, #ffffff, #f5f5f5); /* Degradado de blanco a gris claro */
-    border-radius: 24px; /* Bordes redondeados */
-    padding: 20px; /* Espacio interno */
-    width: 100%; /* Ocupa todo el ancho del contenedor padre */
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08); /* Sombra para dar profundidad */
-    resize: none; /* Desactivar la opción de redimensionar */
+    border: none; 
+    color: #0A3871; 
+    background: linear-gradient(135deg, #ffffff, #f5f5f5); 
+    border-radius: 24px; 
+    padding: 20px; 
+    width: 100%; 
+    box-shadow: 0px24px32px -8pxrgba(0, 0, 0, 0.08); 
+    resize: none; 
 }
 
 .text_area {
-    text-transform: lowercase; /* Convertir texto a minúsculas */
-    margin-bottom: 20px; /* Espacio inferior */
-    height: 400px; /* Altura del textarea */
+    text-transform: lowercase; 
+    margin-bottom: 20px; 
+    height: 400px; 
 }
 
 .mensaje {
-    background-image: url(imagenes/Muñeco.png); /* Imagen de fondo */
-    background-repeat: no-repeat; /* No repetir la imagen */
-    background-size: contain; /* Tamaño de la imagen */
-    background-position-x: center; /* Posición horizontal centrada */
-    height: 380px; /* Altura del textarea */
-    margin-bottom: 20px; /* Espacio inferior */
+    background-image: url(imagenes/Muñeco.png); 
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    background-position-x: center; 
+    height: 380px; 
+    margin-bottom: 20px; 
 }
 
 .h_6 {
     background: none;
     font-size: 24px;
-    color:#495057;
+    color: #495057;
 }
 
 ::placeholder {
-    color: #000000; /* Color del texto del placeholder */
+    color: #000000; 
 }
 
 .text_area:focus,
 .mensaje:focus {
-    outline: none; /* Sin borde de enfoque */
+    outline: none; 
 }
 
 .informacion {
-    color: #495057; /* Color del texto */
+    color: #495057; 
     background: none;
-    font-size: 14px; /* Tamaño de la fuente */
-    margin-bottom: 20px; /* Espacio inferior */
-    text-align: center; /* Alinear texto al centro */
+    font-size: 14px; 
+    margin-bottom: 20px; 
+    text-align: center; 
 }
 
 .botones {
-    background: none; /* Degradado de azul oscuro a blanco suave */
-    display: flex; /* Utilizar flexbox para el diseño */
-    justify-content: space-between; /* Espacio entre los botones */
-    width: 100%; /* Ancho completo del contenedor padre */
+    background: none; 
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
     margin-bottom: 8px;
 }
 
 .btn_encriptar,
 .btn_desencriptar {
-    border-radius: 24px; /* Bordes redondeados */
-    cursor: pointer; /* Cambiar cursor al pasar por encima */
-    height: 67px; /* Altura de los botones */
-    width: 48%; /* Ancho del 48% del contenedor padre */
+    border-radius: 24px; 
+    cursor: pointer; 
+    height: 67px; 
+    width: 48%; 
 }
 
 .btn_encriptar {
-    background: linear-gradient(135deg, #0A3871, #0a2d5f); /* Degradado de azul oscuro a un azul más profundo */
-    border: 1px solid #0A3871; /* Borde azul oscuro */
-    color: #ffffff; /* Texto blanco */
+    background: linear-gradient(135deg, #0A3871, #0a2d5f); 
+    border: 1px solid #0A3871; 
+    color: #ffffff; 
 }
 
 .btn_desencriptar {
-    background: linear-gradient(135deg, #ffffff, #e6f2ff); /* Degradado de blanco a azul claro */
-    border: 1px solid #0A3871; /* Borde azul oscuro */
-    color: #0A3871; /* Texto azul oscuro */
+    background: linear-gradient(135deg, #ffffff, #e6f2ff); 
+    border: 1px solid #0A3871; 
+    color: #0A3871; 
 }
 
 .btn_copiar {
-    border-radius: 14px; /* Bordes redondeados */
-    border: 1px solid l1px solid #0A3871; /* Borde azul oscuro */
-    color: #0A3871; /* Texto azul oscuro */
+    border-radius: 14px; 
+    border: 1px solid #0A3871; 
+    color: #0A3871; 
     height: 67px;
-    width: 220px; /* Ancho completo del contenedor padre */
-    background: linear-gradient(135deg, #ffffff, #f5f5f5); /* Degradado de blanco a gris claro */
+    width: 220px; 
+    background: linear-gradient(135deg, #ffffff, #f5f5f5); 
     margin-top: 28px;
 }
 
-/* Media queries para diseño responsivo */
 @media (max-width: 1200px) {
     .text_area,
     .mensaje {
-        height: 200px; /* Ajustar altura para pantallas más pequeñas */
+        height: 200px; 
     }
 
     .btn_encriptar,
     .btn_desencriptar {
-        width: 100%; /* Botones ocupan ancho completo en pantallas más pequeñas */
-        margin-bottom: 10px; /* Añadir espacio inferior entre botones */
+        width: 100%; 
+        margin-bottom: 10px; 
     }
 
     .btn_copiar {
-        width: 100%; /* Botón ocupa ancho completo en pantallas más pequeñas */
+        width: 100%; 
     }
 }
 
 @media (max-width: 768px) {
     main {
-        flex-direction: column; /* Disponer secciones en columna en pantallas pequeñas */
-        align-items: center; /* Centrar secciones */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     section {
-        width: 100%; /* Sección ocupa ancho completo en pantallas pequeñas */
+        width: 100%; 
     }
 
     .text_area,
     .mensaje {
-        height: 150px; /* Ajustar altura para pantallas pequeñas */
+        height: 150px; 
     }
 }
 
 @media (max-width: 480px) {
     .text_area,
     .mensaje {
-        font-size: 24px; /* Reducir tamaño de fuente en pantallas muy pequeñas */
-        padding: 10px; /* Reducir espacio interno en pantallas muy pequeñas */
+        font-size: 24px; 
+        padding: 10px; 
     }
 
     .informacion {
-        font-size: 12px; /* Reducir tamaño de fuente del texto informativo */
+        font-size: 12px; 
     }
 
     .btn_encriptar,
     .btn_desencriptar,
     .btn_copiar {
-        height: 50px; /* Reducir altura de los botones */
+        height: 50px; 
     }
 }
